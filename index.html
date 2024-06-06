@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестування для початкових класів</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Тестування для початкових класів</h1>
+    <form id="testForm">
+        <div class="question">
+            <p>Що можна жувати?</p>
+            <input type="radio" id="option1" name="chew" value="correct">
+            <label for="option1">Жувальна гумка</label><br>
+            <input type="radio" id="option2" name="chew" value="wrong">
+            <label for="option2">Папір</label><br>
+            <input type="radio" id="option3" name="chew" value="wrong">
+            <label for="option3">Пісок</label>
+        </div>
+        <button type="button" onclick="checkAnswer()">Перевірити</button>
+    </form>
+    <div class="result" id="result"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
